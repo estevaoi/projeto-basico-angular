@@ -1,1 +1,16 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container py-2">
+    <a class="navbar-brand" routerLink="dashboard">Projeto</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal" aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Páginas">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarPrincipal">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link rounded" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLinkActive="menu-active" routerLink=""><i class="fa fa-chart-simple"></i> Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link rounded" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLinkActive="menu-active" routerLink="lista"><i class="fa fa-list"></i> Lista</a></li>
+        <li class="nav-item"><a class="nav-link rounded" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLinkActive="menu-active" routerLink="cards"><i class="fa fa-boxes-stacked"></i> Cards</a></li>
+      </ul>
+      <button class="btn btn-outline-danger btn-sm" title="Limpar cache"><i class="fa fa-ban"></i> cache</button>
+    </div>
+  </div>
+</nav>

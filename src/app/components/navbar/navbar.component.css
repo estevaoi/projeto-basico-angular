@@ -1,0 +1,25 @@
+nav .nav-item {
+  margin-right: 5px;
+}
+
+nav .nav-item a {
+  text-decoration: none;
+  display: block;
+  color: #707477;
+  padding: 8px 15px;
+}
+
+nav .nav-item i.fa {
+  display: inline-block;
+  width: 20px;
+}
+
+nav .nav-item a:hover {
+  background: #DBECFF;
+  color: #4478AF;
+}
+
+nav .nav-item a.menu-active {
+  background: #DBECFF;
+  color: #4478AF;
+}
